@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OMO ALAMALA | Authentic Nigerian Cuisine</title>
+
+    <meta name="description" content="Enjoy delicious Nigerian meals from OMO ALAMALA. Order for pickup or delivery.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">🍲</span>
+            <span>OMO <strong>ALAMALA</strong></span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="account-btn" id="accountBtn">Sign In</button>
+
+            <button class="cart-toggle" id="cartToggle">
+                🛒 <span>Cart</span>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn"
+                aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">WELCOME TO OMO ALAMALA</span>
+
+                <h1>
+                    Authentic taste.<br>
+                    <span>Made with love.</span>
+                </h1>
+
+                <p>
+                    Experience the rich flavours of Nigerian cuisine.
+                    Freshly prepared meals, traditional recipes and
+                    delicious moments served with love.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#menu" class="primary-btn">Explore Our Menu →</a>
+                    <a href="#about" class="secondary-btn">Discover Our Story</a>
+                </div>
+
+                <div class="hero-note">
+                    <span>✓ Freshly prepared</span>
+                    <span>✓ Quality ingredients</span>
+                    <span>✓ Pickup & delivery</span>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=1000"
+                    alt="Delicious traditional food"
+                >
+                <div class="image-label">
+                    <span>🍽️</span>
+                    <div>
+                        <strong>Good food, good mood</strong>
+                        <small>Made fresh for you</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- HIGHLIGHTS -->
+        <section class="highlights">
+            <div>
+                <span>🥘</span>
+                <h3>Authentic Meals</h3>
+                <p>Traditional Nigerian flavours.</p>
+            </div>
+
+            <div>
+                <span>🌿</span>
+                <h3>Fresh Ingredients</h3>
+                <p>Prepared with care and quality.</p>
+            </div>
+
+            <div>
+                <span>🛵</span>
+                <h3>Easy Ordering</h3>
+                <p>Pickup or delivery options.</p>
+            </div>
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about section-padding" id="about">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?w=900"
+                    alt="Freshly prepared meal"
+                >
+            </div>
+
+            <div class="about-content">
+                <span class="eyebrow">OUR STORY</span>
+
+                <h2>A taste of home in every serving.</h2>
+
+                <p>
+                    At OMO ALAMALA, we believe good food brings people
+                    together. Our aim is to serve satisfying Nigerian
+                    meals inspired by the flavours and traditions we love.
+                </p>
+
+                <p>
+                    Whether you're craving a delicious plate of Amala,
+                    rice or your favourite soup, there's something
+                    waiting for you.
+                </p>
+
+                <a href="#menu" class="text-link">Discover our menu →</a>
+            </div>
+        </section>
+
+
+        <!-- MENU SECTION -->
+        <section class="menu-section section-padding" id="menu">
+            <div class="section-heading">
+                <span class="eyebrow">MADE WITH LOVE</span>
+                <h2>Explore Our Menu</h2>
+                <p>Delicious Nigerian meals, prepared just the way you love them.</p>
+            </div>
+
+            <div class="menu-filters">
+                <button class="filter-btn active" data-category="All">All Meals</button>
+                <button class="filter-btn" data-category="Swallow">Swallow</button>
+                <button class="filter-btn" data-category="Rice">Rice</button>
+                <button class="filter-btn" data-category="Protein">Protein</button>
+            </div>
+
+            <div class="food-grid" id="foodGrid">
+                <!-- Food cards are generated by JavaScript -->
+            </div>
+        </section>
+
+
+        <!-- ORDER BANNER -->
+        <section class="order-banner">
+            <div>
+                <span class="eyebrow">YOUR NEXT MEAL IS WAITING</span>
+                <h2>Good food shouldn't be far away.</h2>
+                <p>Place your order and enjoy a delicious meal.</p>
+            </div>
+
+            <a href="#menu" class="banner-btn">Order Now →</a>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact-section section-padding" id="contact">
+            <span class="eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+            <h2>Let's stay connected.</h2>
+            <p>
+                Have a question about an order? Get in touch with us.
+            </p>
+            <div class="contact-phone">
+                <h3>Get in Touch With Us</h3>
+                
+            <div>
+                <span>08028261848</span>    
+                <a href="tel:+2348028261848">Call Us</a>
+                <a href="https://wa.me/2348028261848" target="_blank">Whatsapp</a>
+            </div>    
+
+            <div>
+                <span>09019909054</div></span>
+                <a href="tel:+2349019909054">Call Us</a>
+            </div>
+
+            <div>
+                <span>08112793649</span>    
+                <a href="tel:+2348112793649">Call Us</a>
+                <a href="https://wa.me/2348112793649" target="_blank">Whatsapp</a>
+            </div>   
+            
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#" class="logo footer-logo">
+            <span>🍲</span>
+            <span>OMO <strong>ALAMALA</strong></span>
+        </a>
+
+        <p>Authentic taste. Made with love.</p>
+        <small>© <span id="currentYear"></span> OMO ALAMALA. All rights reserved.</small>
+    </footer>
+
+
+    <!-- CART DRAWER -->
+    <div class="overlay" id="cartOverlay"></div>
+
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="drawer-heading">
+            <div>
+                <span class="eyebrow">YOUR SELECTION</span>
+                <h2>Your Cart 🛒</h2>
+            </div>
+
+            <button class="close-btn" id="closeCart" aria-label="Close cart">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Your cart is empty. Add something delicious!</p>
+        </div>
+
+        <div class="cart-summary">
+            <div class="summary-line">
+                <span>Subtotal</span>
+                <strong id="cartSubtotal">₦0</strong>
+            </div>
+
+            <div class="summary-line">
+                <span>Delivery fee</span>
+                <strong id="cartDelivery">₦0</strong>
+            </div>
+
+            <div class="summary-line grand-total">
+                <span>Total</span>
+                <strong id="cartTotal">₦0</strong>
+            </div>
+
+            <button class="primary-btn full-btn" id="checkoutBtn">
+                Proceed to Checkout →
+            </button>
+        </div>
+    </aside>
+
+
+    <!-- CHECKOUT MODAL -->
+    <div class="modal-overlay" id="checkoutModal">
+        <div class="modal">
+            <button class="close-btn modal-close" id="closeCheckout">×</button>
+
+            <span class="eyebrow">ALMOST THERE</span>
+            <h2>Complete Your Order</h2>
+
+            <form id="checkoutForm">
+                <label for="customerName">Full name</label>
+                <input type="text" id="customerName" required placeholder="Your full name">
+
+                <label for="customerPhone">Phone number</label>
+                <input type="tel" id="customerPhone" required placeholder="Your phone number">
+
+                <label>How would you like your order?</label>
+
+                <div class="fulfilment-options">
+                    <label>
+                        <input type="radio" name="fulfilment" value="Pickup" checked>
+                        Pickup
+                    </label>
+
+                    <label>
+                        <input type="radio" name="fulfilment" value="Delivery">
+                        Home delivery
+                    </label>
+                </div>
+
+                <div id="deliveryAddressGroup" class="hidden">
+                    <label for="deliveryAddress">Delivery address</label>
+                    <textarea id="deliveryAddress" rows="3"
+                        placeholder="Enter your complete delivery address"></textarea>
+                </div>
+
+                <label for="orderNote">Additional instructions (optional)</label>
+                <textarea id="orderNote" rows="2"
+                    placeholder="Any special instructions?"></textarea>
+
+                <div class="checkout-total">
+                    <span>Amount to pay</span>
+                    <strong id="checkoutTotal">₦0</strong>
+                </div>
+
+                <button type="submit" class="primary-btn full-btn">
+                    Place Order
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- ACCOUNT MODAL -->
+    <div class="modal-overlay" id="accountModal">
+        <div class="modal account-modal">
+            <button class="close-btn modal-close" id="closeAccount">×</button>
+
+            <span class="eyebrow">WELCOME TO OMO ALAMALA</span>
+            <h2 id="accountHeading">Customer Sign In</h2>
+
+            <p class="account-note">
+                This is a demonstration account interface. Secure
+                customer accounts will be connected later.
+            </p>
+
+            <form id="accountForm">
+                <div id="nameField" class="hidden">
+                    <label for="accountName">Full name</label>
+                    <input type="text" id="accountName" placeholder="Your full name">
+                </div>
+
+                <label for="accountEmail">Email address</label>
+                <input type="email" id="accountEmail" required placeholder="Your email">
+
+                <label for="accountPassword">Password</label>
+                <input type="password" id="accountPassword" required
+                    minlength="8" placeholder="At least 8 characters">
+
+                <button class="primary-btn full-btn" type="submit" id="accountSubmit">
+                    Sign In
+                </button>
+            </form>
+
+            <p class="switch-account" id="switchAccount">
+                Don't have an account?
+                <button type="button" id="switchAccountBtn">Sign up</button>
+            </p>
+
+            <p class="form-message" id="accountMessage"></p>
+        </div>
+    </div>
+
+
+    <!-- ORDER RECEIPT MODAL -->
+    <div class="modal-overlay" id="receiptModal">
+        <div class="modal receipt-modal">
+            <span class="receipt-icon">✓</span>
+            <span class="eyebrow">ORDER RECEIVED</span>
+            <h2>Thank you for ordering!</h2>
+
+            <p class="receipt-status">
+                Your order has been created. Payment is not yet verified.
+            </p>
+
+            <div id="receiptDetails"></div>
+
+            <p class="receipt-disclaimer">
+                This is an order confirmation, not proof of payment.
+                Your payment must be verified before the order is confirmed.
+            </p>
+
+            <button class="primary-btn full-btn" id="printReceipt">
+                Print Order Summary
+            </button>
+
+            <button class="secondary-btn full-btn" id="closeReceipt">
+                Continue Browsing
+            </button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
